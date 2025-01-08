@@ -1,0 +1,50 @@
+body {
+    background-image: url("img/fundo.jpg");
+    background-color: #f0f0f0;
+    font-family: 'Oswald', sans-serif;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+.logo {
+    max-height: 80px;
+    transition: all 0.3s ease-in-out;
+}
+
+.navbar-toggler[aria-expanded="true"] + .collapse ~ .logo {
+    max-height: 120px;
+}
+
+h1 {
+    font-size: 2rem;
+    margin-top: 10px;
+}
+
+.navbar-toggler {
+    border: none;
+    outline: none;
+}
+
+.navbar-nav .nav-link {
+    font-size: 1.1rem;
+    margin: 0 5px;
+    text-transform: uppercase;
+    color: #333;
+    transition: color 0.3s;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #007bff;
+}
+
+#card-img-1, #card-img-2, #card-img-3 {
+    height: 400px;
+    padding: 10px;
+    object-fit: cover;
+}
+
+.card {
+    padding: 10px;
+}
